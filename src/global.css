@@ -4,32 +4,28 @@
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
 }
-.app-container header {
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(242, 242, 242);
-}
-.app-container header h1 {
-  font-size: larger;
-  font-weight: 400;
-}
-.app-container header h1 span {
-  color: #f82e23;
-  font-weight: 500;
-}
 .main-landing-wrapper {
   border: 3px solid red;
   height: 85vh;
   display: flex;
   align-items: center;
-  
-  background-image: url("https://images.pexels.com/photos/12917478/pexels-photo-12917478.jpeg");
 }
 .inner-landing-page{
   border: 3px solid blue;
   width: 50%;
   padding: 20px;
-
+}
+.inner-header-class {
+  border: 3px solid red;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  background-color: rgb(241, 241, 241);
+}
+#btn-style{
+  margin: 2px;
+}
+.inner-header-class h1{
+  font-size: 20px;
 }
